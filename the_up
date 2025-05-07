@@ -1,0 +1,26 @@
+- lil update on the join command					: DONE
+- lil update on the RPL_NICK						: DONE
+- improve the freeaddrinfo struct on the socket		: DONE
+- chnange from perror to exit_msg()					: DONE
+
+
+-> SHOULD I MERGE THIS UPDATE TO OUR PROGRAME (N.B: the Code already Done)
+
+- MODE #channel --> display the modes(DONE) and the formations(Feature To add) :
+		exp: mode #ch1
+		   : betterOutPut  	::		nickName #ch1 +lk 3 passWord
+		   : Our output		::		nickName #ch1 +lk
+	:::   **DONE**    :::
+
+
+- > Update the JOIN function to mimic the ` MODE +k ` Behavior:
+		join #ch1  pass word  -> token the ` pass ` as passWord ( betterTokens ) Added:
+		join #ch1 :pass word  -> token the ` pass ` as passWrod ( betterTokens ) Added:
+
+	our OutPut	:: display any error on server < More than Two Args gived to Join >
+
+
+``` ::: TEST TO CHECK :::```
+` mode #ch -l(-k)`   : problem on a condition (MODE) : DONE
+` mode #ch +l -1 `   : ignore the command			 : DONE
+` mode #ch +l OF `   : ignore the command			 : DONE
