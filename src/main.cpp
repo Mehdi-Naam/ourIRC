@@ -1,6 +1,6 @@
 #include "Global.hpp"
 
-bool	Server::_sig  = false ;
+bool	Server::_sig  = false;
 Server*	Server::_Serv = NULL;
 
 void handle_all_signals() {
